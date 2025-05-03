@@ -100,7 +100,7 @@ DarkMode respects your privacy:
 
 ## Support
 
-Found a bug or have a suggestion? Please [open an issue](https://github.com/yourusername/darkmode/issues) on GitHub.
+Found a bug or have a suggestion? Please [open an issue](https://github.com/jaiwanth97/darkmode/issues) on GitHub.
 
 ---
 
