@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Toggle</title>
+    <style>
+        body {
+            width: 120px;
+            height: 60px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease;
+        }
+
+        #main_box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            height: 30px;
+            width: 70px;
+            border-radius: 20px;
+            background-color: black;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #slider {
+            border: 2px solid black;
+            height: 20px;
+            width: 20px;
+            border-radius: 20px;
+            margin-right: 40px;
+            background-color: white;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .darkMode {
+            background-color: #333;
+        }
+
+        .darkMode #main_box {
+            background-color: white;
+        }
+
+        .darkMode #slider {
+            background-color: black;
+            transform: translateX(39px);
+        }
+    </style>
+</head>
+<body>
+    <div id="main_box">
+        <div id="slider"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

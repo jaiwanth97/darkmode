@@ -1,0 +1,32 @@
+/* Dark mode styles for websites */
+html.dark-mode,
+html.dark-mode body {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+html.dark-mode *:not(img):not(video):not(canvas) {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+html.dark-mode a,
+html.dark-mode a *,
+html.dark-mode button,
+html.dark-mode button * {
+    color: #809fff !important;
+}
+
+html.dark-mode input,
+html.dark-mode textarea,
+html.dark-mode select {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+html.dark-mode img,
+html.dark-mode video,
+html.dark-mode canvas {
+    filter: brightness(0.8) !important;
+}

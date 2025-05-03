@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "DarkMode",
+    "version": "1.0",
+    "description": "Toggle dark mode on any website",
+    "permissions": ["activeTab", "storage"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["darkmode.css"],
+        "run_at": "document_start"
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
