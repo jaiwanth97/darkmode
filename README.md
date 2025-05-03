@@ -1,7 +1,5 @@
 # DarkMode Chrome Extension
 
-![DarkMode Extension Logo](https://via.placeholder.com/150x150.png?text=DarkMode)
-
 ## Overview
 
 DarkMode is a lightweight Chrome extension that allows users to toggle dark mode on any website with a single click. The extension applies a carefully designed dark theme to web pages, reducing eye strain during night-time browsing and conserving battery life on OLED displays.
@@ -23,11 +21,6 @@ DarkMode is a lightweight Chrome extension that allows users to toggle dark mode
 -  Some websites with custom styling may not display correctly in dark mode
 
 ## Installation
-
-### From Chrome Web Store (Recommended)
-1. Visit the [Chrome Web Store](https://chrome.google.com/webstore/) and search for "DarkMode"
-2. Click "Add to Chrome"
-3. Confirm the installation when prompted
 
 ### Manual Installation (Developer Mode)
 1. Download or clone this repository
