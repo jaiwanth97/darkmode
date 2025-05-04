@@ -8,10 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
             document.body.classList.add("darkMode");
         }
     });
-    
-    // Toggle dark mode when clicking the slider
+
     mainBox.addEventListener("click", () => {
-        // Toggle UI in popup
+        
         document.body.classList.toggle("darkMode");
         
         // Get current state after toggle
